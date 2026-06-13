@@ -4,7 +4,6 @@
 
 To understand and implement indexing in MySQL to improve the speed and efficiency of data retrieval operations.
 
----
 
 ## Software Requirements
 
@@ -12,7 +11,6 @@ To understand and implement indexing in MySQL to improve the speed and efficienc
 * Terminal
 * MySQL Community Server
 
----
 
 ## Theory
 
@@ -26,7 +24,6 @@ Indexes are commonly created on columns that are frequently used in:
 
 Although indexes improve query performance, they require additional storage and may slightly slow down `INSERT`, `UPDATE`, and `DELETE` operations because the index must also be updated.
 
----
 
 ## Implementation Steps
 
@@ -42,7 +39,6 @@ Enter your password.
 
 ![Login mySQL](assets/login-mySQL.png)
 
----
 
 ### Step 2: Select the Database
 
@@ -56,7 +52,6 @@ USE student_db;
 Database changed
 ```
 
----
 
 ### Step 3: Display Existing Data
 
@@ -70,7 +65,6 @@ This confirms that data exists before creating an index.
 
 ![Display Existing Data](assets/display-existing-data.png)
 
----
 
 ### Step 4: Create an Index
 
@@ -89,7 +83,6 @@ Query OK
 
 ![Create an Index](assets/create-index.png)
 
----
 
 ### Step 5: Display Existing Indexes
 
@@ -103,7 +96,6 @@ This displays all indexes created for the `students` table.
 
 ![Display Existing Indexes](assets/display-existing-index.png)
 
----
 
 ### Step 6: Execute a Query Using the Indexed Column
 
@@ -119,7 +111,6 @@ The query retrieves records efficiently using the created index.
 
 ![Execute a Query Using the Indexed Column](assets/exeute-query-using-index.png)
 
----
 
 ### Step 7: Remove the Index
 
@@ -138,7 +129,6 @@ SHOW INDEX FROM students;
 
 ![Remove the Index](assets/remove-index.png)
 
----
 
 ## SQL Commands Used
 
@@ -162,13 +152,10 @@ ON students;
 SHOW INDEX FROM students;
 ```
 
----
-
 ## Result
 
 An index was successfully created on the `name` column of the `students` table. The index was verified using `SHOW INDEX`, utilized in a search query, and later removed successfully.
 
----
 
 ## Conclusion
 
