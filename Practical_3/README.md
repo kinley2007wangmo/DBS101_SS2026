@@ -4,7 +4,6 @@
 
 To understand and implement advanced SQL queries using MySQL, including `JOIN`, subqueries, aggregate functions, views, and stored procedures.
 
----
 
 ## Software Requirements
 
@@ -12,7 +11,6 @@ To understand and implement advanced SQL queries using MySQL, including `JOIN`, 
 * Terminal
 * MySQL Community Server
 
----
 
 ## Theory
 
@@ -26,7 +24,6 @@ The concepts covered in this practical include:
 * **VIEW** – A virtual table created from an SQL query.
 * **Stored Procedure** – A saved collection of SQL statements that can be executed repeatedly.
 
----
 
 ## Implementation Steps
 
@@ -42,7 +39,6 @@ Enter your password.
 
 ![Login mySQL](assets/login-mySQL.png)
 
----
 
 ### Step 2: Select the Database
 
@@ -56,7 +52,6 @@ USE student_db;
 Database changed
 ```
 
----
 
 ### Step 3: Create the `departments` Table
 
@@ -79,7 +74,6 @@ VALUES
 
 ![Create department Table](assets/create-department-table.png)
 
----
 
 ### Step 4: Add Department ID to Students Table
 
@@ -108,7 +102,6 @@ SELECT * FROM students;
 
 ![Add Department ID to department Table](assets/add-department-id.png)
 
----
 
 ### Step 5: Perform an INNER JOIN
 
@@ -124,7 +117,6 @@ ON students.dept_id = departments.dept_id;
 
 ![Perform an INNER JOIN](assets/perform-INNER%20JOIN.png)
 
----
 
 ### Step 6: Execute a Subquery
 
@@ -142,7 +134,6 @@ WHERE age >
 
 ![Subquery](assets/subquery-output.png)
 
----
 
 ### Step 7: Use Aggregate Functions
 
@@ -169,7 +160,6 @@ FROM students;
 
 ![Use Aggregate Functions](assets/aggregate-function.png)
 
----
 
 ### Step 8: Create a View
 
@@ -191,7 +181,6 @@ SELECT * FROM student_view;
 
 ![Create a view](assets/create-view.png)
 
----
 
 ### Step 9: Create a Stored Procedure
 
@@ -214,7 +203,6 @@ CALL ShowStudents();
 
 ![Create a Stored Procedure](assets/stored-production.png)
 
----
 
 ## SQL Commands Used
 
@@ -283,13 +271,11 @@ DELIMITER ;
 CALL ShowStudents();
 ```
 
----
 
 ## Result
 
 Advanced SQL operations including `JOIN`, subqueries, aggregate functions, views, and stored procedures were successfully implemented and executed in MySQL.
 
----
 
 ## Conclusion
 
