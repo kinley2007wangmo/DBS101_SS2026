@@ -4,15 +4,11 @@
 
 To verify the installation of MySQL on macOS and successfully access the MySQL server through the Terminal.
 
----
-
 ## Software Requirements
 
 * macOS
 * Terminal
 * MySQL Community Server
-
----
 
 ## Theory
 
@@ -20,7 +16,6 @@ MySQL is an open-source Relational Database Management System (RDBMS) that store
 
 On macOS, MySQL can be accessed through the Terminal by connecting to the MySQL server using a valid user account.
 
----
 
 ## Implementation Steps
 
@@ -30,7 +25,6 @@ Open the **Terminal** application from your Mac.
 
 ![Terminla](assets/terminal.png)
 
----
 
 ### Step 2: Verify MySQL Installation
 
@@ -48,7 +42,6 @@ If MySQL is installed correctly, it will display the installed version.
 mysql Ver 9.6.0 for macos26.3 on arm64 (Homebrew)
 ```
 
----
 
 ### Step 3: Connect to MySQL Server
 
@@ -62,7 +55,6 @@ Press **Enter** and provide the root password when prompted.
 
 ![Login mySQl](assets/login-mySQL.png)
 
----
 
 ### Step 4: Successfully Access the MySQL Monitor
 
@@ -82,7 +74,6 @@ This confirms that the MySQL server is running and ready to execute SQL commands
 
 ![Successful connection](assets/successful-connection.png)
 
----
 
 ### Step 5: Exit MySQL
 
@@ -106,8 +97,6 @@ You should return to the normal Terminal prompt.
 kineywamo@Kinleys-MacBook-Pro ~ %
 ```
 
----
-
 ## Commands Used
 
 ```bash
@@ -120,13 +109,9 @@ mysql -u root -p
 exit;
 ```
 
----
-
 ## Result
 
 The MySQL installation was successfully verified, and a connection to the MySQL server was established through the Terminal. The server responded correctly and allowed access to the MySQL command-line interface.
-
----
 
 ## Conclusion
 
